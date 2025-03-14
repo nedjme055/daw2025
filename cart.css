@@ -1,0 +1,101 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+header {
+    position: fixed;
+    width: 100%;
+    top: 0%;
+    right: 0%;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    color: rgb(255, 255, 255);
+    
+}
+header.sticky{
+   
+
+    i{
+        color: #000000;
+    }
+    img{
+        filter: invert(1);
+      }
+    background: #ffffff;
+    transition: 0.4s;
+}
+header i {
+    color: #ffffff;
+}
+body {
+    font-family:"Jost", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    color: #333333;
+    overflow-x: hidden;
+    width: 100%;
+}
+#logo{
+    margin-left: auto;            /* Push logo to the center */
+        margin-right: auto;           /* Push logo to the center */
+        height: 50px;
+        filter: invert(1);
+    
+    
+    }
+/* General reset for the nav */
+nav {
+    padding: 10px 0; /* Vertical padding */
+    text-align: center; /* Center the navigation items */
+}
+
+nav ul {
+    list-style: none; /* Remove default list style */
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margin */
+    display: flex; /* Use flexbox for alignment */
+    justify-content: center; /* Center the list items */
+}
+
+nav ul a {
+    color: white; /* Text color */
+    font-size: 24px; /* Font size of the icons */
+    margin: 0 20px; /* Space between items */
+    text-decoration: none; /* Remove underline */
+    transition: transform 0.3s ease, color 0.3s ease; /* Smooth hover effect */
+}
+
+nav ul a:hover {
+    color: #ff2600; /* Change color on hover */
+    transform: translateY(-5px); /* Slight upward movement on hover */
+}
+
+nav ul a i {
+    display: inline-block;
+}
+nav i{
+padding-right: 20%;
+
+}
+nav{
+    display: flex;
+    align-items: center
+}
+#menu{
+    position: relative;
+    left: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 30px;
+    background: black;
+    color: white;
+    margin-top: 20px;
+}

@@ -1,0 +1,159 @@
+*{   
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family:"Jost", sans-serif;
+}
+header {
+    width: 100%;
+    top: 0%;
+    right: 0%;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    color: rgb(255, 255, 255);
+    background-color: black;
+    
+}
+
+header i {
+    color: #ffffff;
+}
+body {
+    background-image: url(https://img.freepik.com/vecteurs-libre/rombus-subtil-motif-fond-blanc-gris_1017-25098.jpg?t=st=1741537060~exp=1741540660~hmac=b06c30c991257ae1f3137b297398bd6653ab07c18290d8c5568a8504489a3b82&w=2000);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #000000;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    justify-content: center;
+}
+#logo{
+        margin-left: auto;            /* Push logo to the center */
+        margin-right: auto;           /* Push logo to the center */
+        height: 50px;    
+    }
+/* General reset for the nav */
+nav {
+    padding: 10px 0; /* Vertical padding */
+    text-align: center; /* Center the navigation items */
+}
+
+nav ul {
+    list-style: none; /* Remove default list style */
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margin */
+    display: flex; /* Use flexbox for alignment */
+    justify-content: center; /* Center the list items */
+}
+
+nav ul a {
+    font-size: 24px; /* Font size of the icons */
+    margin: 0 20px; /* Space between items */
+
+    transition: transform 0.3s ease, color 0.3s ease; /* Smooth hover effect */
+}
+
+nav ul a:hover {
+   /* filter: invert(1); /* Change color on hover */
+    transform: translateY(-5px); /* Slight upward movement on hover */
+}
+
+nav ul a i {
+    display: inline-block;
+}
+nav i{
+padding-right: 20%;
+
+}
+nav{
+    display: flex;
+    align-items: center;
+}
+form {
+    max-width: 400px;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+}
+
+label, input, select, button {
+    margin-bottom: 10px;
+    padding: 8px;
+}
+
+
+footer {    
+    text-align: center;
+    padding: 30px;
+    background: transparent;
+    color: black;
+    margin-top: 20px;
+    width: 100%; 
+    margin-top: auto;
+}
+.check-menu { 
+        background-color:transparent;
+        border: 2px solid rgba(255, 255, 255, .2);
+        backdrop-filter: blur(20px);
+        box-shadow:0 0 3px ;
+        width: 50%;
+        margin-top: 50px;
+        
+        border-radius:10px;
+        padding: 10px 30px;
+        ;
+        display: flex;
+        
+        justify-content: center;
+    }
+h1{
+    font-size: 36px;
+}
+#name ,#last-name ,#address,#payment{
+    margin: 10px 0;
+}
+input{
+    height: 40px;
+    width: 220px;;
+    background-color: white;
+    border: 2px solid rgba(255, 255, 255, .2);
+    color: rgb(0, 0, 0);
+    padding: 10px 10px;
+    border: 1px solid #999;
+
+}
+
+input::placeholder{
+    color: rgb(0, 0, 0);
+    opacity: 50%;
+}
+button{
+    font-size: 16px;
+    color: #333;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    background-color:#d4d4d4;
+}
+button:hover{
+    background-color: #9e6fb4;
+    color: white;
+    transition: 0.3s;
+}
+.menu-container{
+    display: flex;
+    justify-content: center;
+}
+#payment{
+    margin-bottom: 30px;
+    border-radius: 0px;
+    border: 1px solid #999;
+    background-color: white;
+}
