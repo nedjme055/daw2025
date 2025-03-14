@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout</title>
+    <link rel="stylesheet" href="checkout.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.6.0/uicons-regular-rounded/css/uicons-regular-rounded.css'>
+</head>
+<body>
+    <header>
+
+        <div>
+            <a href="index.html"><img id="logo" src="noire1.png" alt=""></a>
+        </div>
+
+        <div>
+            <nav>
+                <ul>
+                    <a href="#"><i class="fi fi-rr-user"></i></a>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    
+<div class="menu-container">
+<div class="check-menu">
+    <form id="checkout-form">
+        <h1>Checkout</h1>
+        <label for="name"></label>
+        <input type="text" id="name" required  placeholder="Name">
+
+        <label for="last-name"></label>
+        <input type="text" id="last-name" required  placeholder="Last Name">
+
+
+        <label for="address"></label>
+        <input type="text" id="address" required placeholder="Shipping Address">
+
+        <label for="payment"></label>
+        <select id="payment" required>
+            <option value="">Payment Method</option>
+            <option value="credit">Credit Card</option>
+            <option value="paypal">PayPal</option>
+            <option value="cod">Cash on Delivery</option>
+        </select>
+
+        <button type="submit">Place Order</button>
+        <p id="error-message" style="color: red;"></p>
+    </form>
+    
+</div>
+</div>
+    
+    <footer>
+        <p>&copy; 2025 Simple Clothing. All rights reserved.</p>
+    </footer>
+    <Script  src="checkout.js"></Script>
+</body>
+</html>
